@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/WebGL2.0.asm.loader.js"></script>
     <script>
-      var unityInstance = createUnityInstance("unityContainer", "Build/WebGL2.0.json", {onProgress: UnityProgress});
+      var unityInstance = createUnityInstance("unityContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
